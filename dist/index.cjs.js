@@ -2208,15 +2208,11 @@ var links = [
             // },
             {
                 label: "Github",
-                href: "https://github.com/goosedefi/",
+                href: "https://github.com/marmeladefinance",
             },
             {
                 label: "Docs",
-                href: "https://goosedefi.gitbook.io/goose-finance/",
-            },
-            {
-                label: "Blog",
-                href: "https://goosefinance.medium.com/",
+                href: "https://marmelade-finance.gitbook.io/marmelade-finance/",
             },
         ],
     },
@@ -2228,22 +2224,38 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/goosedefi",
+                href: "https://t.me/MarmeladeFinanceEnglish",
+            },
+            {
+                label: "русский",
+                href: "https://t.me/MarmeladeFinanceRussian",
+            },
+            {
+                label: "Deutsche",
+                href: "https://t.me/MarmeladeFinanceGerman",
+            },
+            {
+                label: "Türkiye",
+                href: "https://t.me/MarmeladeFinanceTurkish",
+            },
+            {
+                label: "中文",
+                href: "https://t.me/MarmeladeFinanceChinese",
+            },
+            {
+                label: "Español",
+                href: "https://t.me/MarmeladeFinanceSpanish",
             },
             {
                 label: "Announcements",
-                href: "https://t.me/goosefinanceann",
-            },
-            {
-                label: "Price Bot",
-                href: "https://t.me/BinanceRocketEGG",
+                href: "https://t.me/MarmeladeFinanceANN",
             },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/goosedefi",
+        href: "https://twitter.com/MarmeladeF",
     }
 ];
 var MENU_HEIGHT = 64;
