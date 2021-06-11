@@ -2415,7 +2415,7 @@ var TechRateAudit = function (_a) {
         React__default['default'].createElement("image", { width: "369", height: "120", href: isDark ? '/images/egg/TechRateAuditDark.png' : '/images/egg/TechRateAuditWhite.png' })));
 };
 
-var StyledAudit = styled__default['default'].div(templateObject_1$D || (templateObject_1$D = __makeTemplateObject(["\n  margin-bottom: 5px;\n\n  img {\n    border-radius: 50%;\n  }\n"], ["\n  margin-bottom: 5px;\n\n  img {\n    border-radius: 50%;\n  }\n"])));
+var StyledAudit = styled__default['default'].div(templateObject_1$D || (templateObject_1$D = __makeTemplateObject(["\n  margin-bottom: 5px;\n  text-align: center;\n\n  svg {\n    width: calc(100% - 30px);\n  }\n"], ["\n  margin-bottom: 5px;\n  text-align: center;\n\n  svg {\n    width: calc(100% - 30px);\n  }\n"])));
 var AuditButton = function (_a) {
     var auditLink = _a.auditLink, isDark = _a.isDark;
     return (React__default['default'].createElement(StyledAudit, null,

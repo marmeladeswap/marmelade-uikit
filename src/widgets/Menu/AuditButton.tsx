@@ -11,9 +11,10 @@ interface AuditProps {
 
 const StyledAudit = styled.div`
   margin-bottom: 5px;
+  text-align: center;
 
-  img {
-    border-radius: 50%;
+  svg {
+    width: calc(100% - 30px);
   }
 `;
 
