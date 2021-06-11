@@ -110,6 +110,7 @@ const Menu: React.FC<NavProps> = ({
 
   // Find the home link if provided
   const homeLink = links.find((link) => link.label === "Home");
+  const auditLink = links.find((link) => link.label === "Audit");
 
   return (
     <Wrapper>
@@ -131,6 +132,7 @@ const Menu: React.FC<NavProps> = ({
           isMobile={isMobile}
           showMenu={showMenu}
           isDark={isDark}
+          auditLink={auditLink?.href ?? '/'}
           toggleTheme={toggleTheme}
           langs={langs}
           setLang={setLang}

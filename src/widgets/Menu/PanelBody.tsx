@@ -28,7 +28,7 @@ const PanelBody: React.FC<Props> = ({ isPushed, pushNav, isMobile, links }) => {
 
   // Close the menu when a user clicks a link on mobile
   const handleClick = isMobile ? () => pushNav(false) : undefined;
-  
+
   return (
     <Container>
       {links.map((entry) => {
@@ -55,6 +55,9 @@ const PanelBody: React.FC<Props> = ({ isPushed, pushNav, isMobile, links }) => {
                 ))}
             </Accordion>
           );
+        }
+        if (entry.label === "Audit") {
+          return null;
         }
         return (
           <MenuEntry key={entry.label} isActive={entry.href === location.pathname} className={calloutClass}>
